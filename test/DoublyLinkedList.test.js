@@ -10,9 +10,6 @@ describe("Double linked list testing", () => {
   dll.append(3);
   dll.append(4);
 
-  dll.append(4);
-  dll.append(4);
-
   // [1, 2, 3, 4, 5, 6, 7]
   const testCase = [
     {
