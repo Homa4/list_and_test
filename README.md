@@ -52,9 +52,12 @@ To run the test suite:
 npm test
 ```
 
-## Current test staatus
+## Current test status
 
+![Build Status](https://github.com/Homa4/list_and_test/actions/workflows/github-actions-demo.yml/badge.svg)
 
+- ✅ [Приклад успішної збірки](https://github.com/Homa4/KPI3-lab2/actions/runs/14298833832)
+- ❌ [Приклад невдалої збірки](https://github.com/Homa4/KPI3-lab2/actions/runs/14298814330)
 
 This will execute all tests and display the results in the console.
 
