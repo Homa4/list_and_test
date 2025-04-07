@@ -1,13 +1,6 @@
 import DoublyLinkedList from "../task/DoublyLinkedList";
 import { describe, it, test, expect } from "vitest";
 
-// test("testing append", () => {
-//   const dll = new DoublyLinkedList();
-//   dll.append(1);
-//   dll.append(2);
-//   expect(dll.length()).toBe(2);
-// });
-
 describe("Double linked list testing", () => {
   const dll = new DoublyLinkedList();
   dll.append(1);
@@ -16,6 +9,10 @@ describe("Double linked list testing", () => {
   dll.append(2);
   dll.append(3);
   dll.append(4);
+
+  dll.append(4);
+  dll.append(4);
+
   // [1, 2, 3, 4, 5, 6, 7]
   const testCase = [
     {
